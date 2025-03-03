@@ -1,0 +1,24 @@
+# Material Components Design Rules for snapid
+
+# Project Rules
+project_name: snapid
+tech_stack: react-native, tamagui
+no_expo: true
+no_web_components: true
+
+# Component Styling Rules
+use_tamagui: true
+tamagui_version: latest
+native_only: true
+
+# Platform Support
+target_platforms: ios, android
+
+# Build Configuration
+use_babel: true
+bundle_id: com.snapid.app
+
+# Directory Structure
+component_dir: src/components
+screen_dir: src/screens
+theme_file: tamagui.config.js 
